@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Fall-Detected', 'Fall-person', 'Person', 'fall', 'fall detected', 'falling', 'helmet', 'sitting', 'sleeping on couch', 'walking']
+
+roboflow:
+  workspace: sairamyas-workspace
+  project: human-fall-rqfc5
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/sairamyas-workspace/human-fall-rqfc5/1
